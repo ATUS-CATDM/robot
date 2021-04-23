@@ -15,21 +15,21 @@ DWAPlannerROS:
 
   prune_plan: false
 
-  xy_goal_tolerance: 0.25
-  yaw_goal_tolerance: 0.1
+  xy_goal_tolerance: 0.10
+  yaw_goal_tolerance: 0.17
   trans_stopped_vel: 0.1
   theta_stopped_vel: 0.05
-  sim_time: 1.0
+  sim_time: 7.0
   sim_granularity: 0.1
   angular_sim_granularity: 0.1
-  path_distance_bias: 34.0
-  goal_distance_bias: 24.0
-  occdist_scale: 0.05
+  path_distance_bias: 30.0
+  goal_distance_bias: 20.0
+  occdist_scale: 0.02
   twirling_scale: 0.0
   stop_time_buffer: 0.5
   oscillation_reset_dist: 0.05
   oscillation_reset_angle: 0.2
-  forward_point_distance: 0.3
+  forward_point_distance: 0.1
   scaling_speed: 0.25
   max_scaling_factor: 0.2
   vx_samples: 20
